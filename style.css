@@ -1,7 +1,4 @@
-*{
-    background-color: rgb(172, 223, 223);
-    color:rgb(19, 75, 75);
-}
+
 body{
     font-family:sans-serif;
     font-weight: 400;
@@ -9,7 +6,7 @@ body{
 nav{
     display: block;
     border-bottom: 5px dashed cadetblue;
-    padding: 2rem;
+    padding: 10px;
 }
 .navb{
     text-decoration: none;
@@ -17,3 +14,49 @@ nav{
 a{
     text-decoration: none;
 }
+*{
+    background-image: url(https://profunda-analytics.com/wp-content/uploads/2017/07/Contact-Form-background.jpg);
+    color: #001233;
+    font-family: cursive;
+  }
+  h1{
+    text-align: center;
+  /*   border: 5px dotted #0466c8; */
+    border-radius: 30px 10px;
+    padding: 5px 5px;
+    
+  }
+  h1 + p{
+    text-align: center;
+    font-weight: 800;
+  }
+  form{
+    display: block;
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+        padding-top: 10px;
+    border: 5.5px inset #0466c8;
+    border-radius: 50px 20px;
+  }
+  
+  ul li{
+    list-style-type: none;
+    padding: 8px;
+  }
+  input,
+  select,
+  textarea{
+    /*  color of the text inside */
+    background-color: #5c677d;
+    border: 2px dotted #023e7d;
+   }
+  legend{
+  }
+  button{
+    color: #023e7d;
+    border: 2px dotted #023e7d;
+    border-radius: 50%;
+  }
