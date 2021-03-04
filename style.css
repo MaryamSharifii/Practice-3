@@ -2,3 +2,18 @@
     background-color: rgb(172, 223, 223);
     color:rgb(19, 75, 75);
 }
+body{
+    font-family:sans-serif;
+    font-weight: 400;
+}
+nav{
+    display: block;
+    border-bottom: 5px dashed cadetblue;
+    padding: 2rem;
+}
+.navb{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
