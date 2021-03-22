@@ -3,7 +3,7 @@ body{
     font-family:sans-serif;
     font-weight: 400;
 }
-nav{
+.first-nav{
     display: block;
     border-bottom: 5px dashed cadetblue;
     padding: 10px;
